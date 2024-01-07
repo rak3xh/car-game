@@ -139,7 +139,10 @@ void gameover()
     cout << "\t\t-------- Game Over -------" << endl;
     cout << "\t\t--------------------------" << endl
          << endl;
-    cout << "\t\tPress any key to go back to menu.";
+    cout << "\t\t"
+         << "Your Score is: " << score << endl;
+    cout << endl
+         << "\t\tPress any key to go back to menu.";
     getch();
 }
 void updateScore()
